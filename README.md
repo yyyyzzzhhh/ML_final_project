@@ -31,12 +31,49 @@ Project is created with:
 
     
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using:
 
 ```
 $ cd ../lorem
 $ npm install
 $ npm start
+
+!pip install matplotlib==3.4
+import os
+import warnings
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+from IPython.display import display
+from pandas.api.types import CategoricalDtype
+
+#from category_encoders import MEstimateEncoder
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.feature_selection import mutual_info_regression
+from sklearn.model_selection import  KFold, cross_val_score
+from xgboost import XGBRegressor
+
+import warnings
+from matplotlib import style
+style.use("ggplot")
+sns.set_palette("Set3")
+
+warnings.filterwarnings('ignore')
+
+from sklearn.model_selection import GridSearchCV
+import lightgbm as lgb
+from lightgbm import LGBMRegressor
+from xgboost import XGBRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, AdaBoostRegressor, BaggingRegressor
+from sklearn.metrics import mean_squared_error
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import RobustScaler
+from sklearn.svm import SVR
+import pandas as pd
 ```
 
 ![Screenshot](house.jpeg)
