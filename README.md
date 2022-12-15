@@ -38,5 +38,7 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
-![This is an image](https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg)
+
+![Screenshot](house.jpeg)
+
 
