@@ -19,9 +19,16 @@ There could potentially be some ethical implications of this problem, too. For e
     
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* pathlib version: 1.0.1
+* matplotlib version: 3.4.0
+* matplotlib-venn version: 0.11.7
+* numpy version: 1.21.6
+* pandas version: 1.3.5
+* seaborn version: 0.11.2
+* ipython version: 7.9.0
+* sklearn-pandas version: 1.8.0
+* xgboost version: 0.90
+
     
 ## Setup
 To run this project, install it locally using npm:
@@ -31,3 +38,5 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
+![This is an image](https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg)
+
