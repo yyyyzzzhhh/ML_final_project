@@ -76,6 +76,8 @@ from sklearn.svm import SVR
 import pandas as pd
 ```
 
+Please use python HousePriceModeling.ipynb to run this project.
+Thank you so much!
 ![Screenshot](house.jpeg)
 
 
